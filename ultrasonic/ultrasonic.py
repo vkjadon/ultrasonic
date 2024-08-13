@@ -36,7 +36,7 @@ def cleanup():
 
 def main():
     try:
-        trigger_pin = 18  # Replace with your actual trigger pin
+        trigger_pin = 23  # Replace with your actual trigger pin
         echo_pin = 24     # Replace with your actual echo pin
         setup_pins(trigger_pin, echo_pin)
 
