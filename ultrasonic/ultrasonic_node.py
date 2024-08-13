@@ -2,7 +2,7 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Float32
-from ultrasonic import setup_pins, get_distance, cleanup
+from ultrasonic.ultrasonic import setup_pins, get_distance, cleanup
 
 class UltrasonicPublisher(Node):
 
